@@ -1,13 +1,10 @@
 # archfreebuff
 
-freex appimage for arch (x86_64), fixed up and ready to run 🐧
+Freebuff For arch! (x86_64)
 
 ## grab it
 
-the appimage isn't committed here (161mb, github blocks files over 100mb) so grab
-it from the releases page instead:
-
--> `ArchFreebuff.AppImage`
+the appimage is in the release — grab `ArchFreebuff.AppImage` from the releases page.
 
 ## run it
 
@@ -29,5 +26,3 @@ if fuse is being difficult this usually does the trick:
 ```
 
 run `sha256sum ArchFreebuff.AppImage` and it should print that ✨
-
-168,715,274 bytes, x86_64 linux, built for arch but runs fine on most modern distros.
