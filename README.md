@@ -1,39 +1,33 @@
-# Arch Freebuff AppImage fixed
+# archfreebuff
 
-AppImage distribution for FreeX, built for x86_64 Arch Linux.
+freex appimage for arch (x86_64), fixed up and ready to run 🐧
 
-## Download
+## grab it
 
-The AppImage is not committed to this repository (it is ~161 MiB, well over git's
-100 MiB file limit). Grab it from the **Releases** page of this repository:
-`FreeX.AppImage`.
+the appimage isn't committed here (161mb, github blocks files over 100mb) so grab
+it from the releases page instead:
 
-## Run
+-> `ArchFreebuff.AppImage`
 
-```bash
-chmod +x FreeX.AppImage
-./FreeX.AppImage
-```
-
-If FUSE is unavailable on your system, extract and run instead:
+## run it
 
 ```bash
-./FreeX.AppImage --appimage-extract-and-run
+chmod +x ArchFreebuff.AppImage
+./ArchFreebuff.AppImage
 ```
 
-## Artifact details
-
-| Field    | Value |
-| -------- | ----- |
-| File     | `FreeX.AppImage` |
-| Size     | 168,715,274 bytes (~161 MiB) |
-| Arch     | ELF 64-bit LSB executable, x86-64, dynamically linked, stripped |
-| SHA-256  | `751aec0468ef7fec56ea5b11421875fa25a2dce1913a1c16a1c984d141323260` |
-
-## Verifying a download
+if fuse is being difficult this usually does the trick:
 
 ```bash
-sha256sum FreeX.AppImage
+./ArchFreebuff.AppImage --appimage-extract-and-run
 ```
 
-The output must match the SHA-256 above.
+## checksum
+
+```
+751aec0468ef7fec56ea5b11421875fa25a2dce1913a1c16a1c984d141323260
+```
+
+run `sha256sum ArchFreebuff.AppImage` and it should print that ✨
+
+168,715,274 bytes, x86_64 linux, built for arch but runs fine on most modern distros.
