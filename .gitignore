@@ -1,0 +1,5 @@
+# Large AppImage binaries are distributed as GitHub Release assets, not committed to git
+*.AppImage
+
+# Local Freebuff project metadata
+.freebuff/
